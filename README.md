@@ -1,8 +1,8 @@
-# My Special Problem: An example of CMSC 190 GitHub Repository
-Authors: Juan D. Cruz and Adviser' S. Name
+# UPLB Cashier Notification Services: Data Security using Advanced Encryption Standard
+Authors: Andrea Nicole G. Privado and Concepcion L. Khan
 
-This is the abstract of my special problem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut congue, diam molestie pellentesque feugiat, lorem libero vehicula lorem, eget accumsan magna mi non sem. Aliquam erat volutpat. Aliquam scelerisque sagittis mi sed consequat. Ut vestibulum ullamcorper fermentum. Vivamus eu efficitur nunc, quis tempus libero. Aliquam condimentum posuere sem, vitae auctor purus tempus quis. Aenean laoreet nulla pretium mauris faucibus gravida. Nunc interdum, tortor at tempus egestas, velit eros bibendum dui, a malesuada mi lectus ut ante. Praesent ac turpis gravida, tincidunt tellus vitae, volutpat tortor.
+The study presents an alternative to the SMS notifications currently employed by UPLB Cashier. It succeeded in developing a mobile application for employee users and a web application for admin users. It has also been able to implement end-to-end encryption for mobile notifications and a data encryption algorithm when writing and accessing sensitive data from the database using the Advanced Encryption Standard. 
 
-Keywords: template, submission, repository, example
+A mean score of 82.5 (web app) and 92.5 (mobile app) was obtained from the System Usability Testing (SUS) which implies that the system has an above-average to excellent usability. A result of ’Threat Level 1’ is obtained from a web vulnerability scan which implies that no severe or critical vulnerabilities were detected in the web application. Lastly, the result ’All tested parameters do not appear to be injectable.’ has been obtained from an SQL injection testing performed in one of the server’s HTTP request URLs.
 
-Read [How To Document](HOWTO.md) for more details.
+Keywords: Mobile Application, Web Application, Encryption Algorithm, Push Notification, In-app Notification
