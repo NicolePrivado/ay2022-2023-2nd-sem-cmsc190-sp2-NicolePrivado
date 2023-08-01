@@ -1,0 +1,89 @@
+.home-text{
+    position: fixed;
+    top: 120px;
+    left: 20%;
+    font-family: "Segoe UI";
+    font-size: 20px;
+    color: rgb(60,60,60);
+    font-weight: 600;
+}
+
+.home-search{
+    position: fixed;
+    top: 180px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 60%;
+    color: rgb(80,80,80);
+}
+
+.home-search input{
+    width: 95%;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 10px 20px;
+    font-family: "Segoe UI";
+    border-radius: 50px;
+    outline: none;
+}
+
+.home-search-icon{
+    position: absolute;
+    top: 50%;
+    left: 96%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.home-title{
+    text-align: center;
+    font-family: 'Segoe UI';
+    position: fixed;
+    top: 20px;
+    font-size: 90px;
+    font-weight: 800;
+    color: rgb(141,20,54);
+    letter-spacing: 2px;
+    width: 100%;
+}
+.home-title2{
+    text-align: center;
+    font-family: 'Segoe UI';
+    position: fixed;
+    top: 155px;
+    font-size: 54px;
+    font-weight: 600;
+    color: rgb(60,60,60);
+    letter-spacing: 1.5px;
+    width: 100%;
+}
+.home-bg{
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.home-white{
+    position: fixed;
+    height: 37%;
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.home-greetings{
+    padding: 20px 40px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-family: "Segoe UI";
+    color: rgb(80,80,80);
+    font-size: 30px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 50px;
+    font-weight: 500;
+}

@@ -1,0 +1,24 @@
+@media print{
+    @page { 
+        size: auto;
+        margin: 50px 0px 35px 0px ;     
+      }
+
+    .analytics-page{
+        margin: 0.3in;
+        font-family: "Segoe UI";
+        text-align: center;
+    }
+    
+    .analytics-title{
+        position: absolute;
+        font-size: 18px;
+        font-weight: bold;
+        top: 10px;
+        text-align: center;
+        left: 50%;
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: rgb(80,80,80)
+    }
+}

@@ -1,0 +1,25 @@
+.footer-body{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 7px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: rgb(50,50,50);
+    font-size: small;
+    font-family: "Segoe UI";
+}
+
+.footer-copyright{
+    position: fixed;
+    left: 200px;
+}
+
+.footer-email{
+    margin-left: 57%
+}
+
+.footer-tel{
+    position: fixed;
+    right: 200px;
+}

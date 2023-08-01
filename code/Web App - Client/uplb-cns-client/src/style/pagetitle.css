@@ -1,0 +1,19 @@
+.page-title{
+    position: fixed;
+    left: 20%;
+    top: 75px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    color: rgb(50,50,50);
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+.construction{
+    position: fixed;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

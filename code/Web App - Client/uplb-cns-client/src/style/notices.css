@@ -1,0 +1,225 @@
+.notices-count{
+    color: gray;
+    font-size: 18px;
+}
+
+.notices-gray-space{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 210px;
+    background-color: white;
+}
+
+.notices-tool{
+    position:fixed;
+    display: flex;
+    top: 145px;
+    left: 15%;
+}
+
+.notices-search{
+    margin-top: 4.4px;
+    width: 280px;
+    color: rgb(80,80,80);
+}
+
+.notices-search input{
+    width: 85%;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    padding: 9px 5px 9px 35px;
+    font-family: "Segoe UI";
+    border-radius: 2px;
+    outline: none;
+}
+
+.notices-search-icon{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.notice-tool-icons{
+    color: rgb(80,80,80);
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.notice-calendar{
+    color: rgb(80,80,80);
+    position: absolute;
+    top: 50%;
+    left: 877px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.notices-search-icon:hover, .notice-tool-icons:hover, .notice-calendar:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.notices-date-range{
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 4px;
+    margin-left: 7px;
+    margin-right: 5px;
+    width: 260px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.notice-display-date{
+    color: rgb(80,80,80);
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.notice-date-range{
+    position: fixed;
+    top: 190px;
+    left: 820px;
+}
+
+.notices-empty{
+    position: fixed;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    top: 190px;
+    left: 15%;
+    font-weight: 500;
+    color: rgb(80, 80, 80)
+}
+
+.notice-table{
+    text-align: 'center';
+    position: absolute;
+    top: 210px;
+    left: 15%;
+    width: 70%;
+    font-family: "Segoe UI";
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+th{
+    padding: 8px 2px;
+    background-color: rgb(0, 86, 63);
+    color: whitesmoke;
+    font-size: 14px;
+    position:sticky;
+    top: 210px;
+    font-weight: 100;
+    border: solid 1px whitesmoke
+}
+
+td{
+    padding: 8px 0px;
+    font-size: 14px;
+}
+
+.notice-dropdown{
+    background-color: white;
+    font-family: "Segoe UI";
+    margin-top: 3.3px;
+    margin-left: 7px;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+    border: none;
+    width: 150px;
+    border: 1px solid rgb(248,248,248);
+}
+
+.notice-dropdown:hover{
+    border-radius: 2px;
+    border: 0.2px solid gray;
+}
+
+.notice-dropdown2{
+    background-color: white;
+    font-family: "Segoe UI";
+    margin-top: 3.3px;
+    margin-left: 7px;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+    border: none;
+    width: 180px;
+    border: 1px solid rgb(248,248,248);
+}
+
+.notice-dropdown2:hover{
+    border-radius: 2px;
+    border: 0.2px solid gray;
+}
+
+.notice-actions{
+    font-family: "Segoe UI";
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    margin: 0 5px;
+    display: inline-flex;
+    border-radius: 2px;
+    background:none;
+    color:rgb(50, 50, 50);
+    box-shadow: 1px 1px #bebebe;
+}
+
+.notice-actions:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+.notice-action-icon{
+    margin-right: 7px;
+    color:rgb(50, 50, 50)
+}
+
+.sort-icon{
+    color: whitesmoke;
+    margin-left: 12px;
+    position: relative;
+    top: 2px;
+    cursor:pointer;
+}
+
+.sort-icon:hover{
+    color: darkgray;
+}
+
+.notices-pagenum{
+    font-family: "Segoe UI";
+    text-align: center;
+    position:fixed;
+    bottom: 19px;
+    left: 15%;
+    width: 70%;
+    border-top: 1px solid gray;
+    background-color: white;
+    padding-bottom: 5px;
+    display: 'flex';
+    font-size: 14px;
+}
+
+.page-icon{
+    color: rgb(80, 80, 80);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.page-icon:hover{
+    color: rgb(0, 86, 63)
+}

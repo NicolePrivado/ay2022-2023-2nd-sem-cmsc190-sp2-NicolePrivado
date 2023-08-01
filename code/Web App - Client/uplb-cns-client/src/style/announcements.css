@@ -1,0 +1,372 @@
+.anncmt-count{
+    color: gray;
+    font-size: 18px;
+}
+
+.create-anncmt-btn{
+    color: rgb(0,86,63);
+}
+
+.create-anncmt-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.anncmt-blur{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.8
+}
+
+.anncmt-prompt{
+    width: 500px;
+    height: 265px;
+    background-color: white;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 2px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.anncmt-prompt b{
+    font-family: "Segoe UI";
+    font-weight: 700;
+    color: rgb(50,50,50);
+    font-size: 18px;
+}
+
+.delete-anncmt-prompt{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.delete-anncmt-prompt p{
+    font-family: "Segoe UI";
+    color: rgb(50,50,50);
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+#create-anncmt-title{
+    margin: 10px;
+    width: 85%;
+    padding: 10px 15px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid gray;
+    border-style: none none solid none;
+}
+
+#create-anncmt-content{
+    margin: 10px;
+    width: 85%;
+    padding: 10px 15px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(245,245,245);
+    resize:none;
+    height: 80px;
+}
+
+#edit-anncmt-title{
+    margin: 10px;
+    width: 85%;
+    padding: 10px 15px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid gray;
+    border-style: none none solid none;
+}
+
+#edit-anncmt-content{
+    margin: 10px;
+    width: 85%;
+    padding: 10px 15px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(245,245,245);
+    resize:none;
+    height: 80px;
+}
+
+.anncmt-cancel{
+    position: absolute;
+    top: 12px;
+    right: -35px;
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: 50px;
+    color: rgb(50,50,50);
+    background-color: rgb(235,235,235);
+}
+
+.anncmt-cancel:hover{
+    background-color: rgb(215,215,215);
+    cursor: pointer;
+}
+
+#create-anncmt-post-btn{
+    text-align: center;
+    padding: 10px 15px;
+    width: 91%;
+    outline: none;
+    border-radius: 2px;
+    background-color:white;
+    border:none;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0,86,63);
+}
+
+#create-anncmt-post-btn:hover:enabled{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#create-anncmt-post-btn:disabled{
+    background-color: rgba(0,86,63,0.5);
+}
+
+#edit-anncmt-update-btn{
+    text-align: center;
+    padding: 10px 15px;
+    width: 91%;
+    outline: none;
+    border-radius: 2px;
+    background-color:white;
+    border:none;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: white;
+    background-color: rgb(0,86,63);
+}
+
+#edit-anncmt-update-btn:hover:enabled{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#edit-anncmt-update-btn:disabled{
+    background-color: rgba(0,86,63,0.5);
+}
+
+#delete-anncmt-btn{
+    text-align: center;
+    padding: 10px 15px;
+    width: 60%;
+    outline: none;
+    border-radius: 2px;
+    background-color:white;
+    border:none;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: white;
+    background-color: rgb(141,20,54);
+}
+
+#delete-anncmt-btn:hover:enabled{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.announcements-gray-space{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 200px;
+    background-color: white;
+}
+.announcement-container{
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    padding-bottom: 70px;
+}
+
+.announcement-card{
+    width: 95%;
+    background-color: rgb(252,2452,252);
+    padding:10px 30px;
+    margin-top: 15px;
+    font-family: "Segoe UI";
+    color: rgb(50,50,50);
+    box-shadow: 2px 2px #ebebeb;
+    border-radius: 2px;
+}
+
+.announcement-actions{
+    margin-top: 10px;
+    text-align: right;
+    
+}
+.announcement-icons{
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.announcement-icons:hover{
+    cursor:pointer;
+    background-color: #ebebeb;
+}
+
+.announcement-title{
+    margin-top: -30px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    width: 85%
+}
+
+.announcement-body{
+    margin: 10px 0px;
+}
+
+.announcement-date{
+    text-align: right;
+    font-size: 13px;
+    color: rgb(80,80,80);
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+
+.announcements-empty{
+    position: fixed;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    top: 190px;
+    left: 20%;
+    font-weight: 500;
+    color: rgb(80, 80, 80)
+}
+
+.announcement-options{
+    background-color: white;
+    position:absolute;
+    right: -120px;
+    box-shadow: -1px -1px #ebebeb;
+    padding: 5px 5px ;
+    border-radius: 2px;
+}
+
+.announcement-option{
+    display: flex;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.announcement-option:hover{
+    background-color: #ebebeb;
+}
+.announcement-option-icon{
+    margin-right: 10px;
+}
+
+.announcements-tool{
+    position:fixed;
+    display: flex;
+    top: 145px;
+    left: 20%;
+}
+
+.announcements-search{
+    margin-top: 4.4px;
+    margin-left: 15px;
+    width: 380px;
+    color: rgb(80,80,80);
+}
+
+.announcements-search input{
+    width: 98%;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    padding: 9px 20px;
+    font-family: "Segoe UI";
+    border-radius: 2px;
+    outline: none;
+}
+
+.announcements-search-icon{
+    position: absolute;
+    top: 50%;
+    left: 450px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.anncmt-tool-icons{
+    color: rgb(80,80,80);
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.anncmt-calendar{
+    color: rgb(80,80,80);
+    position: absolute;
+    top: 50%;
+    left: 718px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.announcements-search-icon:hover, .anncmt-tool-icons:hover, .anncmt-calendar:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.announcements-date-range{
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 4px;
+    margin-left: 7px;
+    margin-right: 5px;
+    width: 250px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.anncmt-display-date{
+    color: rgb(80,80,80);
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.anncmt-date-range{
+    position: absolute;
+    top: 210px;
+    left: 760px;
+}

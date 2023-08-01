@@ -1,0 +1,363 @@
+.inquiry-count{
+    color: gray;
+    font-size: 18px;
+}
+
+.inquiry-blur{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.8
+}
+
+.inquiries-gray-space{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 200px;
+    background-color: white;
+}
+.inquiry-container{
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    padding-bottom: 70px;
+}
+
+.inquiry-card{
+    width: 95%;
+    background-color: white;
+    padding:10px 30px;
+    margin-top: 15px;
+    font-family: "Segoe UI";
+    color: rgb(50,50,50);
+    box-shadow: 2px 2px #ebebeb;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.inquiry-card:hover{
+    border: 1px solid gray;
+}
+
+.inquiry-photo{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.inquiry-icon{
+    margin-right: 10px;
+    color:rgb(80, 80, 80);
+}
+
+.inquiry-title{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    width: 85%;
+}
+
+.inquiry-title-text{
+    position: relative;
+    top: -20px;
+}
+
+.inquiry-email{
+    position: relative;
+    top: -30px;
+    left: 53px;
+    font-weight: 100;
+    font-size: 12px;
+    color:rgb(150, 150, 150)
+}
+
+.inquiry-body{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.inquiry-date{
+    text-align: right;
+    font-size: 13px;
+    color: rgb(80,80,80);
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+
+.view-inquiry-card{
+    width: 93.5%;
+    background-color: white;
+    padding:10px 20px;
+    margin-top: 25px;
+    font-family: "Segoe UI";
+    color: rgb(50,50,50);
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.view-inquiry-photo{
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.view-inquiry-title{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    width: 85%;
+}
+
+.view-inquiry-title-text{
+    position: relative;
+    top: -20px;
+}
+
+.view-inquiry-email{
+    position: relative;
+    top: -30px;
+    left: 53px;
+    font-weight: 100;
+    font-size: 12px;
+    color:rgb(150, 150, 150)
+}
+
+.view-inquiry-body{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.view-inquiry-date{
+    text-align: right;
+    font-size: 13px;
+    color: rgb(80,80,80);
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#view-inquiry-reply{
+    width: 93.5%;
+    padding:10px 20px;
+    margin-top: 10px;
+    font-family: Segoe UI;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(245,245,245);
+    resize:none;
+    height: 50px;;
+    border-radius: 2px;
+}
+
+#reply-btn{
+    text-align: right;
+    padding: 10px 15px;
+    width: auto;
+    outline: none;
+    border-radius: 50px;
+    border:none;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    background-color: white;
+    position: absolute;
+    right: 32px;
+    top: 290px;
+    cursor: pointer;
+}
+
+#reply-btn:hover{
+    background-color: rgb(245,245,245);
+}
+
+.reply-icon{
+    margin-right: 5px;
+}
+
+.inquiries-empty{
+    position: fixed;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    top: 190px;
+    left: 20%;
+    font-weight: 500;
+    color: rgb(80, 80, 80)
+}
+
+.inquiry-prompt{
+    width: 650px;
+    height: 85%;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-top: 30px;
+    border-radius: 2px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.inquiries-tool{
+    position:fixed;
+    display: flex;
+    top: 145px;
+    left: 20%;
+}
+
+.inquiries-search{
+    margin-top: 4.4px;
+    width: 380px;
+    color: rgb(80,80,80);
+}
+
+.inquiries-search input{
+    width: 98%;
+    border: 1px solid rgb(200, 200, 200);
+    background-color: white;
+    padding: 9px 20px;
+    font-family: "Segoe UI";
+    border-radius: 2px;
+    outline: none;
+}
+
+.inquiries-search-icon{
+    position: absolute;
+    top: 55%;
+    left: 390px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.inquiry-tool-icons{
+    color: rgb(80,80,80);
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.inquiry-calendar{
+    color: rgb(80,80,80);
+    position: absolute;
+    top: 55%;
+    left: 655px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.inquiries-search-icon:hover, .inquiry-tool-icons:hover, .inquiry-calendar:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
+
+.inquiries-date-range{
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 4px;
+    margin-left: 7px;
+    margin-right: 5px;
+    width: 250px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.inquiry-display-date{
+    color: rgb(80,80,80);
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.inquiry-date-range{
+    position: absolute;
+    top: 210px;
+    left: 760px;
+}
+
+.reply-list{
+    height: 40%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+}
+
+.replies-header{
+    font-size: 20px;
+    font-family: "Segoe UI";
+    margin-top: 30px;
+    font-weight: bold;
+    color:rgb(80, 80, 80);
+}
+
+.reply-card1{
+    width: 75%;
+    background-color: rgb(245,245,245);
+    padding:10px 20px;
+    margin-top: 25px;
+    font-family: "Segoe UI";
+    color: rgb(50,50,50);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 50px;
+    cursor: pointer;
+    float: right
+}
+
+.reply-card2{
+    width: 75%;
+    background-color: white;
+    padding:10px 20px;
+    margin-top: 25px;
+    font-family: "Segoe UI";
+    color: rgb(50,50,50);
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 50px;
+    cursor: pointer;
+    float: left
+}
+
+
+.reply-title{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    width: 85%;
+}
+
+.reply-title-text{
+    position: relative;
+}
+
+.reply-body{
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.reply-date{
+    text-align: right;
+    font-size: 13px;
+    color: rgb(80,80,80);
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.empty-reply{
+    margin-top: 0;
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: rgb(150, 150, 150)
+}

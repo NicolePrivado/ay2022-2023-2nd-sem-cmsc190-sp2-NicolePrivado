@@ -1,0 +1,32 @@
+.login-bg{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+}
+.login-logo{
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 20%;
+}
+
+.google-icon{
+    margin-right: 15px;
+}
+
+.login-btn-container{
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    bottom: 0;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    padding-top: 75px;
+    height: 140px;
+    background-color: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,86 @@
+.menu-bg{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-icon{
+    position: fixed;
+    left: 36.5px;
+    top: 90px;
+    color: rgb(80,86,63);
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu-icon:hover{
+    background-color: white;
+    border-radius: 50px;
+}
+
+.menu-items{
+    background-color: white;
+    width: 320px;
+    height: 220px;
+    position: fixed;
+    left: 46.5px;
+    top: 150px;
+    box-shadow: 1px 1px lightgrey;
+    border-radius: 3px;
+}
+
+.help-icon{
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    color: rgb(80,86,63);
+    cursor: pointer;
+}
+
+.help-icon:hover{
+    opacity: 0.7;
+}
+
+.menu-items-body{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    left: 51%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 93%;
+    font-family: "Segoe UI";
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-item-box{
+    position: relative;
+    margin: 0;
+    width: 32%;
+    text-align: center;
+    height: 85px;
+    cursor: pointer;
+}
+
+.menu-item-box:hover{
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+
+.menu-item-box span{
+    font-family: "Segoe UI";
+    font-size: 10.5px;
+    font-weight: 700;
+    color: rgb(50,50,50);
+    position: relative;
+}
+
+.menu-item-icon{
+    margin-top: 15px;
+    margin-bottom: 5px ;
+    color: rgb(80,80,80);
+}

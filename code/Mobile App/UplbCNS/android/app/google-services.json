@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "305381575928",
+    "firebase_url": "https://uplb-cashier-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "uplb-cashier",
+    "storage_bucket": "uplb-cashier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305381575928:android:b518ff25bc174a5f8d7f0d",
+        "android_client_info": {
+          "package_name": "com.uplbcns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305381575928-vthcrpvtqbe8l8dmqgcqpv9flhum19bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS1N2MQi42CpqYhoY8BxIW9bL_Qw76K3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305381575928-8cniast9vgta6n9epsns0fg2u1ml7p18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305381575928:android:8a0ffa988ccbe7958d7f0d",
+        "android_client_info": {
+          "package_name": "com.uplbctt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305381575928-mrtrdl2ba9i3pe2clt75rt7oa5119nn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uplbctt",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "305381575928-vthcrpvtqbe8l8dmqgcqpv9flhum19bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS1N2MQi42CpqYhoY8BxIW9bL_Qw76K3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305381575928-8cniast9vgta6n9epsns0fg2u1ml7p18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

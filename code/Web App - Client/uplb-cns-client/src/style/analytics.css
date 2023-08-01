@@ -1,0 +1,210 @@
+.analytics-gray-space{
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height: 210px;
+    background-color: white;
+}
+
+.analytics-tool{
+    position:fixed;
+    display: flex;
+    top: 145px;
+    left: 20%;
+}
+
+.analytics-range-picker{
+    position: fixed;
+    top: 190px;
+    left: 20%;
+}
+
+.analytics-display-date{
+    color: rgb(80,80,80);
+    margin-top: 6px;
+    margin-left: 15px;
+}
+
+.analytics-calendar{
+    color: rgb(80,80,80);
+    position: absolute;
+    top: 50%;
+    left: 242px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+.analytics-tool-icons{
+    color: rgb(80,80,80);
+    margin-left: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.analytics-tool-icons:hover{
+    opacity: 0.7 
+}
+
+.analytics-dropdown{
+    background-color: white;
+    font-family: "Segoe UI";
+    margin-top: 3.3px;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+    border: none;
+    width: 150px;
+    border: 1px solid rgb(248,248,248);
+}
+
+.analytics-blur{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.8
+}
+
+.analytics-date-range{
+    border: 1px solid rgb(200, 200, 200);
+    margin-top: 4px;
+    margin-right: 5px;
+    width: 260px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.graph{
+    position:fixed;
+    top: 200px;
+    left: 20%;
+    width:44.75%;
+    height: 351px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.header2{
+    background-color: #009A72;
+    top: 0;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.graph-title{
+    margin: 0;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-size: 22;
+    font-weight: bold;
+    color: whitesmoke;
+    letter-spacing: 1.2px;
+}
+
+.graph-container{
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.analytics-today{
+    position:fixed;
+    top: 200px;
+    right: 20%;
+    width: 14.5%;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.analytics-thismonth{
+    position:fixed;
+    top: 320px;
+    right: 20%;
+    width: 14.5%;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.analytics-thisyear{
+    position:fixed;
+    top: 440px;
+    right: 20%;
+    width: 14.5%;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px #ebebeb;
+}
+
+.header1{
+    background-color: #009A72;
+    top: 0;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.day{
+    margin: 0;
+    color: whitesmoke;
+    font-family: "Segoe UI";
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    letter-spacing: 1.1px;
+}
+
+.date{
+    margin: 0;
+    color: whitesmoke;
+    font-family: "Segoe UI";
+    text-align: center;
+    font-size: x-small;
+}
+
+.date-data{
+    margin: 0;
+    margin-top: 5px;
+    font-family: "Segoe UI";
+    text-align: center;
+    font-weight: bold;
+    color: rgb(80,80,80);
+    font-size: 22px;
+}
+
+.data-label{
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Segoe UI";
+    text-align: center;
+    color: rgb(100,100,100);
+    font-size: x-small;
+}
+
+.analytics-loading{
+    position:absolute;
+    top: 50%;
+    left: 43%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.analytics-loading-graph{
+    position:absolute;
+    top: 50%;
+    left: 49%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

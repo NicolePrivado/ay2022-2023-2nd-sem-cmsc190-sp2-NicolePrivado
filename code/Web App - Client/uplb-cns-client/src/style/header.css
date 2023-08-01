@@ -1,0 +1,84 @@
+.header-body{
+    position: fixed;
+    top:0;
+    background-color:white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.header-home{
+    margin-left: 50px;
+    position: absolute;
+    padding: 7px 10px 3px 10px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(141,20,54);
+    width: 111px;
+    border-radius: 50px;
+}
+
+.header-home:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.header-home-icon{
+    margin: 0 15px 0 10px;
+}
+
+.header-home-text{
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Segoe UI";
+    font-weight: bold;
+}
+
+.header-logo{
+    height: 65%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.header-logout{
+    margin-left: 1300px;
+    right: 50px;
+    position: absolute;
+    padding: 7px 10px 3px 10px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: rgb(141,20,54);
+    width: 135px;
+    border-radius: 50px;
+}
+
+.header-logout:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.header-logout-icon{
+    margin: 0 15px 0 10px;
+}
+
+.header-logout-text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Segoe UI";
+    position: absolute;
+    top: 47.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-weight: bold;
+}
